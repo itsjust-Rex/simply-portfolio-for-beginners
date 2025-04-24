@@ -6,11 +6,15 @@
   <title>S-REX UNIVERSE</title>
   <style>
     body {
-      background: #0d0d0d;
-      color: #fff;
-      font-family: Arial, sans-serif;
+      background: black;
+      color: #00ff00;
+      font-family: 'Courier New', Courier, monospace;
       text-align: center;
       padding: 50px;
+      background-image: linear-gradient(to bottom, #000000, #003300);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
     }
     h1 {
       color: #00ffcc;
@@ -20,9 +24,15 @@
       font-size: 1.2em;
       margin: 20px 0;
     }
+    img {
+      width: 300px;
+      height: auto;
+      border-radius: 15px;
+      margin-bottom: 30px;
+    }
     a.channel-link {
       display: inline-block;
-      background-color: #25D366;
+      background-color: #006400; /* Dark Green */
       color: white;
       padding: 15px 30px;
       margin-top: 20px;
@@ -32,7 +42,21 @@
       transition: background-color 0.3s ease;
     }
     a.channel-link:hover {
-      background-color: #1ebc57;
+      background-color: #004d00;
+    }
+    a.contact-link {
+      display: inline-block;
+      background-color: #b8860b; /* Dark Goldenrod */
+      color: white;
+      padding: 12px 25px;
+      margin-top: 15px;
+      text-decoration: none;
+      border-radius: 10px;
+      font-size: 1em;
+      transition: background-color 0.3s ease;
+    }
+    a.contact-link:hover {
+      background-color: #a97405;
     }
     .footer {
       margin-top: 50px;
@@ -44,6 +68,7 @@
 <body>
 
   <h1>Welcome to S-REX UNIVERSE</h1>
+  <img src="https://files.catbox.moe/0cudsm.jpg" alt="S-REX Universe Image">
   <p>For fun and entertainment, wanna see my channel?</p>
   <p>Laugh like hell, and don't forget to react and follow!</p>
 
@@ -53,7 +78,9 @@
 
   <div class="footer">
     <p>Owned by <strong>itsjust-Rex</strong></p>
-    <p>Contact: <a style="color: #25D366;" href="https://wa.me/2348132160559" target="_blank">+2348132160559</a></p>
+    <a class="contact-link" href="https://wa.me/+2348132160559?text=Hey+REX" target="_blank">
+      Contact Owner
+    </a>
     <p>Have a nice day!</p>
   </div>
 
