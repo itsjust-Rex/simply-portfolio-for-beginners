@@ -4,53 +4,55 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>My Activities - S-REX</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
   <style>
     body {
+      margin: 0;
+      padding: 50px;
+      font-family: 'Poppins', sans-serif;
       background-color: black;
-      background-image: url('https://i.gifer.com/7VE.gif'); /* Animated lightning */
+      background-image: url('https://i.ibb.co/CBGR6F2/matrix-bg.gif');
       background-size: cover;
       background-attachment: fixed;
       color: #00ff00;
-      font-family: 'Courier New', Courier, monospace;
       text-align: center;
-      padding: 50px;
     }
     h1 {
       color: #ffcc00;
       font-size: 2.5em;
+      font-weight: 600;
       margin-bottom: 30px;
     }
     ul {
       list-style: none;
       padding: 0;
-      font-size: 1.2em;
+      font-size: 1.1em;
+      font-weight: 300;
       line-height: 2;
     }
     li {
       margin-bottom: 15px;
     }
-    a.channel-link {
+    a.channel-link, a.contact-link {
       display: inline-block;
-      background-color: #006400;
-      color: white;
       padding: 10px 20px;
-      margin-top: 30px;
+      margin-top: 20px;
       text-decoration: none;
       border-radius: 8px;
+      font-weight: 600;
       font-size: 1em;
+      transition: background-color 0.3s ease;
+    }
+    a.channel-link {
+      background-color: #006400;
+      color: white;
     }
     a.channel-link:hover {
       background-color: #004d00;
     }
     a.contact-link {
-      display: inline-block;
       background-color: #b8860b;
       color: white;
-      padding: 10px 20px;
-      margin-top: 15px;
-      border-radius: 8px;
-      text-decoration: none;
-      font-size: 1em;
     }
     a.contact-link:hover {
       background-color: #aa7700;
